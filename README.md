@@ -32,21 +32,24 @@
 ## 3. 프로젝트 구조
 
 * 폴더 트리
-┃ 📂ormi-fe-project
-┃ ┣ 📂js
-┃ ┃ ┣ 📜script.js
-┃ ┣ 📂css
-┃ ┃ ┣ 📜styles.css
-┃ ┃ ┣ 📜mobile.css
-┃ ┃ ┣ 📜reset.css
-┃ ┣ 📂images
-┃ ┣ 📜index.html
+📦JUNSIK2.github.io
+ ┣ 📂css
+ ┃ ┣ 📜mobile.css
+ ┃ ┣ 📜reset.css
+ ┃ ┗ 📜styles.css
+ ┣ 📂images
+ ┣ 📂js
+ ┃ ┗ 📜script.js
+ ┣ 📜index.html
+ ┗ 📜README.md
 
 ## 4. 화면 구조
 |PC화면|모바일화면|
 |:---:|:---:|
 |<img src="./images/screenshot-pc.png" width="70%" height="70%"></img>|<img src="./images/screenshot-mobile.png" width="50%" height="50%"></img>|
-|이메일 유효성 검증 & 모달 창 구현|사이드버튼|
-|<img src="./images/validate-email.gif" width="100%" height="110%"></img>|<img src="./images/topscroll.gif" width="100%" height="110%"></img>|
+|이메일 유효성 검증|모달 창 구현|
+|<img src="./images/validate-email.gif" width="90%" height="100%"></img>|<img src="" width="" height=""></img>|
+|탑 스크롤|사이드 바|
+|<img src="./images/topscroll.gif" width="100%" height="110%"></img>|<img src="" width="" height=""></img>|
 
 ## 
