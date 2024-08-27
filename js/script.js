@@ -7,7 +7,7 @@ const sideBar = document.querySelector('.side-bar');
 // 이메일 유효성 검사
 document.querySelector('.subscribe_btn').addEventListener('click', () => {
     if(exptext.test(email.value) == false) {
-        alert('이메일 주소가 유효하지 않습니다.');
+        alert('이메일 형식이 올바르지 않습니다.');
     } else {
         dialog.showModal();
     }
