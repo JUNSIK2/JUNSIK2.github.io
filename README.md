@@ -22,9 +22,9 @@
 
 
 ## 4. 화면 구조
-|:---:|:---:|
 |PC화면|모바일화면|
-|<img src="./images/screenshot-pc.png" width="" height=""></img>|<img src="./images/screenshot-mobile.png" width="" height=""></img>|
+|:---:|:---:|
+|<img src="./images/screenshot-pc.png" width="50%" height="50%"></img>|<img src="./images/screenshot-mobile.png" width="50%" height="50%"></img>|
 |이메일 유효성 검증|모달창|
 |제목|내용|
 |사이드버튼|오른쪽정렬|
