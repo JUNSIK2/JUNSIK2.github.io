@@ -10,6 +10,7 @@
 * 탑 스크롤 버튼 구현, 스크롤이 최상단에 위치 시 버튼 감추기
 * 이메일 유효성을 검사, 모달 창 구현
 * 사이드 메뉴 바 구현
+* 카카오맵 API 사용
 
 
 ## 2. 개발 환경 및 배포 URL
@@ -49,11 +50,11 @@
 |유효성 검증 & 모달 창|탑 스크롤|
 |<img src="./images/validate-email.gif" width="80%" height="90%"></img>|<img src="./images/topscroll.gif" width="80%" height="90%"></img>|
 |사이드 바||
-|<img src="./images/sidebar.gif" width="100%" height="100%"></img>||
+|<img src="./images/sidebar.gif" width="70%" height="70%"></img>||
 
 ## 5. 에러 및 해결
 * 
 
 
 ## 6. 개발하며 느낀점
-
+* 
