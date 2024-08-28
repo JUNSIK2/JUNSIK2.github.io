@@ -1,14 +1,16 @@
 
 // 이메일 유효성 검사
-const exptext = /^[A-Za-z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/;
+const regex = /^[A-Za-z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/;
 const email = document.querySelector('#email');
 const dialog = document.querySelector('.subscribe_modal');
 
-document.querySelector('.subscribe_btn').addEventListener('click', () => {
-    if(exptext.test(email.value) == false) {
+document.querySelector('.subscribe_btn').addEventListener('click', (event) => {
+    if(regex.test(email.value) == false) {
         alert('이메일 형식이 올바르지 않습니다.');
+        event.preventDefault(); // 새로고침 방지
     } else {
         dialog.showModal();
+        event.preventDefault();
     }
 });
 
